@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="horizontal"
+    tools:context=".AboutStation" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Comment"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/backAddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameEntered"
+        android:layout_marginTop="68dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:text="@string/backAddButton" />
+
+    <Button
+        android:id="@+id/actualAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/backAddButton"
+        android:layout_alignBottom="@+id/backAddButton"
+        android:layout_toRightOf="@+id/TextView01"
+        android:text="@string/actualAdd" />
+
+    <EditText
+        android:id="@+id/contentEntered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/backAddButton"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dp"
+        
+        android:ems="10"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/nameEntered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contentEntered"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contentEntered"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="horizontal"
+    tools:context=".AboutStation" >
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAddress"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/txtName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="29dp"
+        android:text="@string/txtAddress"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:onClick="goHome"
+        android:text="@string/home" />
+
+    <Button
+        android:id="@+id/goBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/go" />
+
+    <Button
+        android:id="@+id/commentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goBtn"
+        android:layout_centerHorizontal="true"
+        android:onClick="goComment"
+        android:text="@string/CommentID" />
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtAddress"
+        android:layout_alignLeft="@+id/phoneNumberTxt"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAddress"
+        android:layout_marginTop="33dp"
+        android:layout_toLeftOf="@+id/homeBtn"
+        android:text="@string/phone"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phoneNumberTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/homeBtn"
+        android:layout_toRightOf="@+id/homeBtn"
+        android:text="@string/phoneNumberTxt" />
+
+    <TextView
+        android:id="@+id/addressLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtAddress"
+        android:layout_alignBottom="@+id/txtAddress"
+        android:layout_toRightOf="@+id/homeBtn"
+        android:text="@string/addressLine1" />
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#99CCFF</color>
+    
+    <string name="app_name">Service Station Locator</string>
+        <string name="app_name1">Service Station Locator</string>
+    
+    <string name="menu_settings">Settings</string>
+    
+    <string name="welcome">Welcome!</string>
+    <string name="findStation">Service Station Locator</string>
+    <string name="goFind">Go</string>
+    
+    <string name="enterLocation">Enter Your Location</string>
+    <string name="enter">Enter</string>
+    <string name="clear">Clear</string>
+    <string name="backBtn">Back</string>
+        <string name="back">Back</string>
+       <string name="backBtnComment">Back</string>
+    <string name="displayList">Stations In the Area</string>
+    <string name="CommentID">View Comments</string>
+    <string name="MainActivity">Service Station Locator</string>
+    <string name="title_activity_about_station">About Station</string>
+    <string name="txtName">Name:</string>
+    <string name="name">**********</string>
+    <string name="txtAddress">Address:</string>
+    <string name="addressLine1">**********</string>
+    <string name="addressLine2">**********</string>
+    <string name="addressLine3">**********</string>
+    <string name="phone">Phone Number:</string>
+    <string name="phoneNumberTxt">*********</string>
+    <string name="location">Location:</string>
+    <string name="gps">********</string>
+    <string name="home">Back</string>
+    <string name="go">View Map</string>
+    <string name="addComment">Add</string>
+        <string name="insertComment">Add</string>
+                <string name="AddCommentActivity">Add Comment</string>
+                        <string name="backAddButton">Back</string>
+                                <string name="actualAdd">Add</string>
+                                                        <string name="contentEntered">Content Here</string>
+                                                                <string name="QueryInsertActivity">Inserting comment</string>
+                                                                                                                                       
+                                                                <string name="exit">Exit</string>
+                                                                
+    
+    
+        <string name="commentQueryActivity">Comment Query</string>
+    
+    
+        <string name="mapAct">Map</string>
+    <string name="commentActivity">Comment List</string>
+   <string-array name="station_array">
+        <item>Dublin 1</item>
+        <item>Dublin 3</item>
+        <item>Dublin 4</item>
+        <item>Dublin 5</item>
+        <item>Dublin 6</item>
+        <item>Dublin 7</item>
+        <item>Dublin 8</item>
+        <item>Dublin 9</item>
+        <item>Dublin 10</item>
+        <item>Dublin 11</item>
+        <item>Dublin 12</item>
+        <item>Dublin 13</item>
+        <item>Dublin 14</item>
+        <item>Dublin 15</item>
+        <item>Dublin 16</item>
+        <item>Dublin 17</item>
+        <item>Dublin 18</item>
+        <item>Dublin 20</item>
+        <item>Dublin 22</item>
+        <item>Dublin 24</item>
+    </string-array>
+
+ 
+        
+   
+    
+    
+    
+</resources>

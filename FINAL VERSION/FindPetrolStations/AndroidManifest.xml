@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.findpetrolstations"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name1"
+        android:theme="@style/AppTheme" >
+        <uses-library android:required="true" android:name="com.google.android.maps" />
+        <activity
+            android:name="com.example.findpetrolstations.QueryCodeGarages"
+            android:label="@string/app_name" 
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity
+            android:name="com.example.findpetrolstations.MapsActivity"
+            android:label="@string/mapAct" >
+        </activity>
+        <activity
+            android:name="com.example.findpetrolstations.EnterYourLocation"
+            android:label="@string/enterLocation" >
+        </activity>
+           <activity
+            android:name="com.example.findpetrolstations.DisplayListComments"
+            android:label="@string/commentActivity" >
+        </activity>
+                <activity
+            android:name="com.example.findpetrolstations.QueryCodeComments"
+            android:label="@string/commentQueryActivity" >
+        </activity>
+        <activity
+            android:name="com.example.findpetrolstations.AddComment"
+            android:label="@string/AddCommentActivity" >
+        </activity>
+         <activity
+            android:name="com.example.findpetrolstations.QueryInsert"
+            android:label="@string/QueryInsertActivity" >
+        </activity>
+        <activity
+            android:name="com.example.findpetrolstations.MainActivity"
+            android:label="@string/MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.findpetrolstations.DisplayListGarages"
+            android:label="@string/displayList" >
+        </activity>
+        <activity
+            android:name="com.example.findpetrolstations.AboutStation"
+            android:label="@string/title_activity_about_station" >
+        </activity>
+                     
+        
+    </application>
+
+</manifest>

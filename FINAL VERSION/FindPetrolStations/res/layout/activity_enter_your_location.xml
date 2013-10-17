@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".EnterYourLocation" >
+
+    <TextView
+        android:id="@+id/enterLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/enterLocation"
+        android:textSize="21sp" />
+
+<Button
+    android:id="@+id/enterBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/enterLocation"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="126dp"
+    android:onClick="enterLocationButton"
+    android:text="@string/enter" />
+
+<Spinner
+    android:id="@+id/planets_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/enterLocation"
+    android:layout_alignRight="@+id/enterLocation"
+    android:layout_below="@+id/enterLocation"
+    android:layout_marginTop="33dp" />
+
+</RelativeLayout>

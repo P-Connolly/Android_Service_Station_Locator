@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".DisplayList" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" >
+
+  <ListView
+      android:id="@android:id/list"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" />
+  
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/backBtnComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:onClick="backBtn"
+        android:text="@string/backBtn" />
+
+    <Button
+        android:id="@+id/addComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/backBtnComment"
+        android:layout_alignBottom="@+id/backBtnComment"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/backBtnComment"
+        android:text="@string/addComment" />
+
+</RelativeLayout>
